@@ -12,15 +12,15 @@
         width: 80% !important;
     }
     .landing-text-1{
-        width: 75% !important;
-        font-size: 3rem;
+        width: 30% !important;
+        font-size: 3rem !important;
     }
     .landing-text-2{
         width: 75% !important;
     }
-    /* .landin{
-        margin-top: 100px !important;
-    } */
+    .landin{
+        margin-top: 30px !important;
+    }
     .navbar-brand{
         width: 8% !important;
     }
@@ -33,8 +33,15 @@
 }
 
 @media only screen and (min-width: 577px) {
-    .landing-text-1, .landing-text-2{
+    .landing-text-1{
         width: 85% !important;
+        font-size: 2rem;
+    }
+    .landing-text-1{
+        width: 85% !important;
+    }
+    .landing-page{
+        padding-top: 100px !important;
     }
 }
 
