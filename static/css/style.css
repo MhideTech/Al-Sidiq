@@ -7,41 +7,48 @@
     padding: 12px 15px !important;
 }
 
+@media only screen and (min-width: 1250px) {
+    .landing-text-1, .landing-text-2{
+        width: 30% !important;
+    }
+}
+
 @media only screen and (min-width:991px) {
     .abt{
         width: 80% !important;
     }
     .landing-text-1{
-        width: 30% !important;
+        width: 80% !important;
         font-size: 3rem !important;
     }
     .landing-text-2{
         width: 75% !important;
     }
-    .landin{
-        margin-top: 30px !important;
-    }
     .navbar-brand{
         width: 8% !important;
     }
-}
-
-@media only screen and (min-width: 768px) {
-    .landing-text-1, .landing-text-2{
-        width: 85% !important;
+    .choose-img .vid{
+        border-bottom-left-radius: 15px !important;
     }
 }
 
-@media only screen and (min-width: 577px) {
+@media only screen and (max-width: 990px) {
     .landing-text-1{
         width: 85% !important;
+        font-size: 2.2rem;
+    }
+    .landing-text-2{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .landing-text-1{
+        width: 90% !important;
         font-size: 2rem;
     }
-    .landing-text-1{
-        width: 85% !important;
-    }
-    .landing-page{
-        padding-top: 100px !important;
+    .landing-text-2{
+        width: 90% !important;
     }
 }
 
@@ -53,11 +60,17 @@
     .landing-text-2{
         width: 100% !important;
     }
-    .landing-page{
-        padding-top: 70px !important;
+    .choose-img{
+        width: 95% !important;
+        height: 400px !important;
+        margin: 0px auto;
     }
-    .choose-img, .vid, video{
+    .choose-img .vid{
         width: 100% !important;
+        height: 400px !important;
+    }
+    .choose-img .vid video{
+        width: 98% !important;
         height: 400px !important;
     }
     .section{
@@ -71,6 +84,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
+}
+.landin{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
 }
 .nav-colour{
     color: #1CB9C8 !important;
